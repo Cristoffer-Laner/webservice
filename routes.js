@@ -33,6 +33,6 @@ router
   .put("/netflix/series/:id", updateSerie)
   .delete("/netflix/series/:id", deleteSerie)
   .get("/netflix/series/pesq/nome/:nome", pesqSerie)
-  .get("/netflix/series/pesq/ano/:from-:to", pesqTemporadas);
+  .get("/netflix/series/pesq/temporadas/:from-:to", pesqTemporadas);
 
 export default router;
